@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Amin Nashat | Frontend Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Inter',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5f5f7;
+color:#1d1d1f;
+line-height:1.6;
+}
+
+/* NAV */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:white;
+position:sticky;
+top:0;
+border-bottom:1px solid #e5e5e5;
+}
+
+nav h2{
+font-weight:600;
+}
+
+nav a{
+text-decoration:none;
+color:#555;
+margin-left:20px;
+font-size:14px;
+}
+
+nav a:hover{
+color:black;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:52px;
+font-weight:700;
+}
+
+.hero span{
+color:#0071e3;
+}
+
+.hero p{
+margin-top:15px;
+color:#555;
+font-size:18px;
+max-width:600px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.btn{
+margin-top:30px;
+padding:12px 28px;
+background:#0071e3;
+color:white;
+border:none;
+border-radius:25px;
+cursor:pointer;
+}
+
+/* SECTION */
+
+section{
+padding:80px 10%;
+}
+
+h2{
+font-size:34px;
+margin-bottom:25px;
+}
+
+/* CARDS */
+
+.card{
+background:white;
+padding:30px;
+border-radius:14px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+margin-bottom:20px;
+}
+
+/* SKILLS */
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+}
+
+.skill{
+background:#eef2f7;
+padding:10px 18px;
+border-radius:20px;
+font-size:14px;
+}
+
+/* GRID */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:40px;
+color:#777;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>Amin Nashat</h2>
+
+<div>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#education">Education</a>
+<a href="#contact">Contact</a>
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<h1>Hello, I'm <span>Amin Nashat</span></h1>
+
+<p>
+Frontend Developer from Howrah, West Bengal passionate about building modern responsive websites and digital experiences.
+</p>
+
+<a href="#projects">
+<button class="btn">View My Work</button>
+</a>
+
+</div>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="card">
+
+<p>
+I am a motivated frontend developer focused on building clean, modern and responsive web interfaces.
+I enjoy transforming ideas into real digital products using HTML, CSS and JavaScript.
+
+Currently I am looking for remote opportunities where I can contribute to web development projects and grow as a professional developer.
+</p>
+
+</div>
+
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="skill">HTML5</div>
+<div class="skill">CSS3</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Responsive Design</div>
+<div class="skill">Bootstrap</div>
+<div class="skill">Git</div>
+<div class="skill">GitHub</div>
+<div class="skill">UI / UX Basics</div>
+
+</div>
+
+</section>
+
+<!-- EXPERIENCE -->
+
+<section id="experience">
+
+<h2>Experience</h2>
+
+<div class="card">
+
+<h3>Frontend Development Practice</h3>
+
+<p>
+Developed responsive websites and UI layouts while learning modern frontend development practices.
+Focused on clean design, mobile responsiveness and user experience.
+</p>
+
+</div>
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Business Landing Page</h3>
+<p>
+A responsive landing page designed for startups and small businesses.
+</p>
+</div>
+
+<div class="card">
+<h3>Admin Dashboard UI</h3>
+<p>
+Clean analytics dashboard interface with cards and responsive layout.
+</p>
+</div>
+
+<div class="card">
+<h3>Personal Portfolio Website</h3>
+<p>
+Modern personal portfolio showcasing projects and development skills.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- EDUCATION -->
+
+<section id="education">
+
+<h2>Education</h2>
+
+<div class="card">
+
+<p><strong>Bachelor of Commerce (B.Com)</strong></p>
+<p>University – India</p>
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="card">
+
+<p>Email: amintube3010@gmail.com</p>
+<p>Location: Howrah, West Bengal, India</p>
+
+<a href="mailto:amintube3010@gmail.com">
+<button class="btn">Send Email</button>
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Amin Nashat — Frontend Developer
+
+</footer>
+
+</body>
+</html>
